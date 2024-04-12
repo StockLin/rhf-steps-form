@@ -42,7 +42,9 @@ function TicketCreatePage() {
 
   return (
     <MainLayout>
-      <CommonStep1Form onSubmit={onCommonForm1Submit} />
+      <div className="w-full">
+        <CommonStep1Form onSubmit={onCommonForm1Submit} />
+      </div>
     </MainLayout>
   );
 }
